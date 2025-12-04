@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "app/**/*.tsx",
+    "next.config.ts",
+    "tailwind.config.ts"
+  ],
+  "project": [
+    "components/**/*.tsx",
+    "lib/**/*.ts"
+  ],
+  "ignoreDependencies": [
+    "eslint-plugin-unused-imports"
+  ]
+}
